@@ -1,1 +1,1 @@
-# Psythyst.Core
+# Psythyst.CodeGenerator
