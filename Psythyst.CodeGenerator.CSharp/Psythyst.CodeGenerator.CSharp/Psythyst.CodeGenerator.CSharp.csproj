@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Psythyst\Psythyst\Psythyst.csproj" />
+    <ProjectReference Include="..\..\Psythyst.Core.Data\Psythyst.Core.Data\Psythyst.Core.Data.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+</Project>
