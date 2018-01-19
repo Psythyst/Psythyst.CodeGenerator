@@ -1,0 +1,1 @@
+# Psythyst.Plugin.CodeGenerator.Entitas

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ExternalProject Name="Psythyst.Core.Unity">
+ <Platform Type="Windows">
+    <Binary Name="Psythyst.Core.Unity" Path="Library/NET46/Psythyst.Core.Unity/1.4.0/Psythyst.Core.Unity.dll" />
+</Platform>
+ <Platform Type="Linux">
+    <Binary Name="Psythyst.Core.Unity" Path="Library/NET46/Psythyst.Core.Unity/1.4.0/Psythyst.Core.Unity.dll" />
+</Platform>
+ <Platform Type="MacOS">
+    <Binary Name="Psythyst.Core.Unity" Path="Library/NET46/Psythyst.Core.Unity/1.4.0/Psythyst.Core.Unity.dll" />
+</Platform>
+</ExternalProject>

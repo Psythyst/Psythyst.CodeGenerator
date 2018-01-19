@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ExternalProject Name="Psythyst.Core.Unity.Entitas">
+ <Platform Type="Windows">
+    <Binary Name="Psythyst.Core.Unity.Entitas" Path="Library/NET46/Psythyst.Core.Unity.Entitas/1.4.0/Psythyst.Core.Unity.Entitas.dll" />
+</Platform>
+ <Platform Type="Linux">
+    <Binary Name="Psythyst.Core.Unity.Entitas" Path="Library/NET46/Psythyst.Core.Unity.Entitas/1.4.0/Psythyst.Core.Unity.Entitas.dll" />
+</Platform>
+ <Platform Type="MacOS">
+    <Binary Name="Psythyst.Core.Unity.Entitas" Path="Library/NET46/Psythyst.Core.Unity.Entitas/1.4.0/Psythyst.Core.Unity.Entitas.dll" />
+</Platform>
+</ExternalProject>

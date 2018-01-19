@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard1.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Psythyst" Version="1.4.0" />
+    <PackageReference Include="Psythyst.Data.Entitas" Version="1.4.0" />
+  </ItemGroup>
+<PropertyGroup>
+  <VersionPrefix>1.4.0</VersionPrefix>
+  <!--<VersionSuffix>stable</VersionSuffix>-->
+</PropertyGroup>
+<PropertyGroup>
+    <Title>Psythyst.Plugin.CodeGenerator.Default</Title>
+    <PackageId>Psythyst.Plugin.CodeGenerator.Default</PackageId>
+    <PackageVersion>1.4.0</PackageVersion>
+    <PackageProjectUrl>https://github.com/Psythyst/Psythyst.CodeGenerator/</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/Psythyst/Psythyst.CodeGenerator/blob/develop/LICENCE.txt</PackageLicenseUrl>
+    <RepositoryUrl>https://github.com/Psythyst/Psythyst.CodeGenerator</RepositoryUrl>
+    <Authors>SirMetathyst</Authors>
+    <Description>Psythyst Default CodeGenerator(s)</Description>
+    <PackageReleaseNotes></PackageReleaseNotes>
+    <Copyright>Copyright 2017 (c) Alexander Hunt.</Copyright>
+    <PackageTags>CodeGenerator,Psythyst</PackageTags>
+</PropertyGroup>
+</Project>

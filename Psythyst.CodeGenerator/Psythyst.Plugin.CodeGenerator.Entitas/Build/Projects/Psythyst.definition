@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ExternalProject Name="Psythyst">
+ <Platform Type="Windows">
+    <Binary Name="Psythyst" Path="Library/NET46/Psythyst/1.4.0/Psythyst.dll" />
+</Platform>
+ <Platform Type="Linux">
+    <Binary Name="Psythyst" Path="Library/NET46/Psythyst/1.4.0/Psythyst.dll" />
+</Platform>
+ <Platform Type="MacOS">
+    <Binary Name="Psythyst" Path="Library/NET46/Psythyst/1.4.0/Psythyst.dll" />
+</Platform>
+</ExternalProject>

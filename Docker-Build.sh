@@ -1,1 +1,1 @@
-docker build -t psythyst/psythyst-code-generator:latest .
+docker build --rm -t psythyst/psythyst-code-generator:latest .

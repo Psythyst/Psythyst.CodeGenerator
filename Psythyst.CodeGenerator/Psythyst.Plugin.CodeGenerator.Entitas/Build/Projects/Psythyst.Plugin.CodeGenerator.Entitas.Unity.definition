@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Name="Psythyst.Plugin.CodeGenerator.Entitas.Unity" Path="Psythyst.Plugin.CodeGenerator.Entitas.Unity/Psythyst.Plugin.CodeGenerator.Entitas.Unity" Type="Library">
+  <Properties>
+    <FrameworkVersions>
+      <Platform Name="MacOS">
+        <Version>v4.6</Version>
+      </Platform>
+      <Platform Name="Windows">
+        <Version>v4.6</Version>
+      </Platform>
+      <Platform Name="Linux">
+        <Version>v4.6</Version>
+      </Platform>
+    </FrameworkVersions>
+  </Properties>
+  <References>
+    <Reference Include="System" />
+    <Reference Include="UnityEngine" />
+    <Reference Include="Psythyst" />
+    <Reference Include="Psythyst.Data.Entitas" />
+    <Reference Include="Psythyst.Core.Unity" />
+    <Reference Include="Psythyst.Core.Unity.Entitas" />
+    <Reference Include="Psythyst.Plugin.CodeGenerator.Entitas" />
+  </References>
+  <Files>
+    <Compile Include="Source\**\*.cs" />
+  </Files>
+</Project>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ExternalProject Name="Psythyst.Data.Entitas">
+ <Platform Type="Windows">
+    <Binary Name="Psythyst.Data.Entitas" Path="Library/NET46/Psythyst.Data.Entitas/1.4.0/Psythyst.Data.Entitas.dll" />
+</Platform>
+ <Platform Type="Linux">
+    <Binary Name="Psythyst.Data.Entitas" Path="Library/NET46/Psythyst.Data.Entitas/1.4.0/Psythyst.Data.Entitas.dll" />
+</Platform>
+ <Platform Type="MacOS">
+    <Binary Name="Psythyst.Data.Entitas" Path="Library/NET46/Psythyst.Data.Entitas/1.4.0/Psythyst.Data.Entitas.dll" />
+</Platform>
+</ExternalProject>
