@@ -70,7 +70,7 @@ namespace Psythyst.Plugin.CodeGenerator.Entitas
 
         public IEnumerable<OutputModel> Generate(ProjectModel ProjectModel)
         {
-            return ProjectModel.Component.SelectMany(x => x.Context.Select(z => Generate(z, x)));
+            return ProjectModel.Component.Where(x => x.Unique).SelectMany(x => x.Context.Select(z => Generate(z, x)));
         }
 
         OutputModel Generate(string Context, ComponentModel ProjectComponentModel) {
